@@ -17,6 +17,9 @@ export ZOPEN_MAKE="cmake"
 export ZOPEN_MAKE_OPTS="--build build --parallel \${ZOPEN_NUM_JOBS} --config Release"
 export ZOPEN_MAKE_MINIMAL=Y
 
+export ZOPEN_CLEAN="rm"
+export ZOPEN_CLEAN_OPTS="-rf build"
+
 export ZOPEN_INSTALL="cmake"
 export ZOPEN_INSTALL_OPTS="--install build"
 

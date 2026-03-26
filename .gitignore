@@ -5,3 +5,7 @@ build/
 install/
 .zoslib_hooks/
 z-vector-search/
+
+# Ignore source directories created by zopen-build
+z-vector-search/
+z-vector-search-*/
